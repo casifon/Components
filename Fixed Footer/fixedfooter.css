@@ -1,0 +1,34 @@
+.content {
+  min-height: calc(100vh - 50px);
+}
+/* kiszamitani a tartalom konténerének magasságát úgy, hogy a viewport teljes magasságából levonni a footer magasságát. */
+
+.footer {
+  height: 50px;
+}
+/*sak akkor működik, ha a footer magassága fix*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #cfcfcf;
+}
+
+.content,
+.footer {
+  padding: 10px;
+  color: rgba(255,255,255, .9);
+  font-family: monospace;
+  font-size: 1.125rem;
+}
+
+.content {
+  background: #ae001d;
+  height: 200px;
+}
+
+.footer {
+  background: #193a6a;
+}
